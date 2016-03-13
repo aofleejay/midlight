@@ -1,0 +1,6 @@
+{
+  "name": "midlight",
+  "dependencies": {
+    "skeleton": "skeleton-css#^2.0.4"
+  }
+}
