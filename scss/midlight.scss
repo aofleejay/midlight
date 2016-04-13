@@ -1,20 +1,50 @@
+$main-color: #faebd7;
+$dark-gray: #333;
+$gray: #999;
+$light-gray: #ddd;
+
+a {
+	text-decoration: none;
+	color: $dark-gray;
+
+	&:hover {
+		color: $gray;
+	}
+}
+
+.nav-top {
+	padding-top: 2rem;
+	background-color: $main-color;
+}
+
 .header {
 	text-align: center;
-	padding: 150px 0;
-	background-color: antiquewhite;
+	padding: 10rem 0 15rem 0;
+	background-color: $main-color;
 }
 
-.feature {
-	padding: 50px 0;
+.section-one {
+	padding: 5rem 0;
 	text-align: center;
 }
 
-.purpose {
-	padding: 50px 0;
-	background-color: antiquewhite;
+.section-two {
+	padding: 8rem 0 5rem 0;
+	background-color: $main-color;
 	text-align: center;
 }
 
-.contact {
-	padding: 25px 0;
+.section-three {
+	padding: 5rem 0;
+	text-align: center;
+}
+
+.section-four {
+	padding: 3rem 0;
+	background-color: $main-color;
+}
+
+.section-five {
+	padding: 3rem 0;
+	background-color: $light-gray;
 }
